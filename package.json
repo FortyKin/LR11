@@ -1,0 +1,24 @@
+{
+  "name": "rl11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win64 --buildDir dist/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FortyKin/LR11.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FortyKin/LR11/issues"
+  },
+  "homepage": "https://github.com/FortyKin/LR11#readme",
+  "devDependencies": {
+    "nw": "^0.87.0-4",
+    "nw-builder": "^4.7.4"
+  }
+}
